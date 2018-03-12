@@ -51,6 +51,8 @@ Click [here](https://docs.microsoft.com/en-us/azure/iot-hub/iot-hub-devguide-dev
 Complete this [tutorial](https://docs.microsoft.com/en-us/azure/iot-hub/iot-hub-csharp-node-twin-getstarted) for an introduction to
 setting device twins.
 
+And a Nodejs Service Client / Nodejs Device Client example [here](https://docs.microsoft.com/en-us/azure/iot-hub/iot-hub-node-node-twin-getstarted)
+
 ## Direct Methods
 Direct methods represent a request-reply interaction with a device similar to an HTTPS call in that they succeed or fail immediately (after a user-specified timeout) to let the user know the status of the call.  Direct Methods are useful for use cases such as firmware updates,
 reboots and many others.
