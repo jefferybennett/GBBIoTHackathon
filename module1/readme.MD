@@ -1,4 +1,4 @@
-# Module 2
+# Module 1
 
 ## Set-Up IoT Hub, Device Provisioning Service
 
