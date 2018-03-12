@@ -1,0 +1,64 @@
+{
+    "DeviceQueries": [
+        {
+            "Name": "Redmond",
+            "Query": "SELECT * FROM devices WHERE tags.location.plant = 'Redmond43'"
+        },
+        {
+            "Name": "testGeneral",
+            "Query": "tags.location.plant = 'Redmond42'"
+        }
+    ],
+    "TwinUpdates": [
+        {
+            "Name": "SampleTagUpdate",
+            "JSON": {
+                "etag": "*", 
+                "tags": {
+                    "location": {
+                        "region": "US",
+                        "plant": "Redmond43"
+                  }
+                }
+            }
+        },
+        {
+            "Name": "SampleDesiredPropertyUpdate",
+            "JSON": {
+                "etag": "*", 
+                "properties": {
+                    "desired": {
+                        "building": "43", 
+                        "floor": 3
+                    }
+                }
+             }
+        }
+    ],
+    "SimulationGroups": [
+        {
+            "Name": "Trucks",
+            "Devices": [
+                {
+                    "DeviceId": "testGeneral1",
+                    "Attributes": [
+                        {
+                            "Type":"GPS",
+                            "Speed":"70",
+                            "Waypoints": [
+                                {"Type":"Address","Value":""},
+                                {"Type":"Address","Value":""}
+                            ]
+                        },
+                        {
+                            "Name":"CurrentSpeed",
+                            "Type":"Integer",
+                            "TrendType":"Static",
+                            "StartValue":""
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

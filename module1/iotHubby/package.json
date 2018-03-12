@@ -1,0 +1,31 @@
+{
+  "name": "iothubby",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jefferybennett/iothubby.git"
+  },
+  "keywords": [
+    "azure",
+    "iot"
+  ],
+  "author": "Jeff Bennett",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jefferybennett/iothubby/issues"
+  },
+  "homepage": "https://github.com/jefferybennett/iothubby#readme",
+  "dependencies": {
+    "azure-iot-device": "^1.3.2",
+    "azure-iot-device-mqtt": "^1.3.2",
+    "azure-iothub": "^1.1.17",
+    "commander": "^2.11.0",
+    "dotenv": "^4.0.0",
+    "uuid": "^3.1.0"
+  }
+}

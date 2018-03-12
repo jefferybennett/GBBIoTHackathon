@@ -29,7 +29,17 @@ This hackathon was primarily designed for IoT and software developers leverage a
     * for the lab instructions later, create a c:\utils folder and unzip the downloaded OpenSSL zip to c:\utils\ 
     (so you should a folder structure that looks like this->    c:\utils\OpenSSL)
 * [git](https://git-scm.com/downloads/)   ** installation of the default components and default configurations are fine
+
+### Monitoring Azure IoT Hub
+Azure IoT Hub provides endpoints for its data and operational state to be monitored.  You can select from a few different clients
+to monitor IoT Hub; ultimately, they're leverage the same endpoints.
+
+* [IoT Hub Explorer](https://github.com/Azure/iothub-explorer)
+    * Node.js based, you can install with the command "npm install -g iothub-explorer"
 * [Windows Azure IoT Device Explorer](https://github.com/Azure/azure-iot-sdks/releases/download/2016-11-17/SetupDeviceExplorer.msi)
+    * Simple Windows Form client, easy-to-use
+* [Visual Code Azure IoT Hub Toolkit](https://marketplace.visualstudio.com/items?itemName=vsciot-vscode.azure-iot-toolkit)
+    * Extension for Visual Code, provides most of the capabilities provided the above two clients.
 
 ## Raspberry Pi 3 Set-up
 
