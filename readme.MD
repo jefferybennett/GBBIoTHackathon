@@ -70,22 +70,6 @@ Use the following instructions to install .Net Core on the RPI.
     * Run **sudo ln -s /opt/dotnet/dotnet /usr/local/bin** to set up a symbolic link (a shortcut to you Windows folks to the dotnet executabl
 * Test the installation by typing dotnet --help.
 
-### Installing Node.js
-
-Node is utilized in some aspects of this hackathon content, and as alternative for developers who prefer it over .Net Core.
-
-To determine if Node.js is already installed on your computer, open a terminal window and type the command "node --version".
-
-To install Node.js on a PC, simply download the Latest Stable Version (LTS) at [NodeJs.Org](https://nodejs.org)
-
-To install Node.js on Raspbian on a RPI, run the following commands:
-```text
-wget http://node-arm.herokuapp.com/node_latest_armhf.deb 
-sudo dpkg -i node_latest_armhf.deb
-```
-
-Run "node --version" to ensure the installation was successful.
-
 ### SFTP
 We'll use SFTP to securely move files from our PC to the RPI.  To start a SFTP session ...
 
