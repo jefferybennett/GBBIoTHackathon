@@ -51,6 +51,15 @@ This hackathon leverages a Raspberry Pi 3 Model B (RPI) running [Raspbian Stretc
 * Under System Preferences, enable SSH.
 * From a terminal window on your PC, try the command **ssh pi@[ip address]**
 
+### Node Js Set-up
+Follow these instructions to install or update Nodejs.
+
+* Run "sudo apt update"
+* Run "apt list nodejs"
+* Run "curl -sL https://deb.nodesource.com/setup_9.x | sudo -E bash -"
+* Run "sudo apt-get install nodejs"
+* Run "node -v" and "npm -v" to ensure both Nodejs and Npm are properly installed.
+
 ### .Net Core Set-up
 Use the following instructions to install .Net Core on the RPI.
 
